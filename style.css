@@ -166,6 +166,18 @@ hr {
     width: 100%;
 }
 
+table {
+    border-collapse: collapse;
+}
+table td {
+    padding: 14px 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);/*set the color of your other hr*/
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
 .nutrition-info .value {
     color: hsl(14, 45%, 36%);
     font-weight: 500;
