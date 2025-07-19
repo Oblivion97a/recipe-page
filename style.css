@@ -61,6 +61,7 @@ hr {
 
 .recipe-desc p {
     margin-block-end: 1rem;
+    font-size: 0.80rem;
 }
 
 .recipe-desc .prep-time {
